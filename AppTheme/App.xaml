@@ -11,11 +11,34 @@
             <Color x:Key="TextColor">#000000</Color>
             <Color x:Key="TextColorDark">#FFFFFF</Color>
 
-            <Color x:Key="WindowBackgroundColor">#e6d3d3</Color>
-            <Color x:Key="WindowBackgroundColorDark">#302f2f</Color>
-            
+            <Color x:Key="WindowBackgroundColor">#FFFFFF</Color>
+            <Color x:Key="WindowBackgroundColorDark">#000000</Color>
+
+            <Color x:Key="ElementBackgroundColor">#e6d3d3</Color>
+            <Color x:Key="ElementBackgroundColorDark">#302f2f</Color>
+
             <Color x:Key="CardBackground">#FFFFFF</Color>
             <Color x:Key="CardBackgroundDark">#1c1c1e</Color>
+
+            <Style x:Key="BaseLabel" TargetType="Label">
+                <Setter Property="TextColor"
+                        Value="{AppThemeBinding 
+                        Dark={StaticResource TextColorDark},
+                        Light={StaticResource TextColor}}"/>
+                <Setter Property="FontSize" Value="Large"/>
+            </Style>
+            <Style x:Key="CoffeCard" TargetType="Frame">
+                <Setter Property="HeightRequest" Value="100"/>
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+                <Setter Property="Margin" Value="20"/>
+                <Setter Property="BackgroundColor" 
+                        Value="{AppThemeBinding 
+                        Dark={StaticResource WindowBackgroundColorDark},
+                        Light={StaticResource WindowBackgroundColor}}"/>
+                <Setter Property="BorderColor" Value="White"/>
+                <Setter Property="CornerRadius" Value="5"/>
+            </Style>
             
         </ResourceDictionary>
     </Application.Resources>

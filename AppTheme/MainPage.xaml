@@ -13,6 +13,16 @@
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Frame
+            HeightRequest="100"
+            HorizontalOptions="FillAndExpand"
+            Background="{StaticResource Key=CoffeCard}">
+
+            <Label 
+                Text="Frame info here" 
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand" />
+        </Frame>
     </StackLayout>
 
 </ContentPage>
