@@ -11,7 +11,7 @@
             <Color x:Key="TextColor">#000000</Color>
             <Color x:Key="TextColorDark">#FFFFFF</Color>
 
-            <Color x:Key="WindowBackgroundColor">#FFFFFF</Color>
+            <Color x:Key="WindowBackgroundColor">WhiteSmoke</Color>
             <Color x:Key="WindowBackgroundColorDark">#000000</Color>
 
             <Color x:Key="ElementBackgroundColor">#e6d3d3</Color>
@@ -19,6 +19,9 @@
 
             <Color x:Key="CardBackground">#FFFFFF</Color>
             <Color x:Key="CardBackgroundDark">#1c1c1e</Color>
+
+            <Color x:Key="Green">Green</Color>
+            <Color x:Key="Yellow">Yellow</Color>
 
             <Style x:Key="BaseLabel" TargetType="Label">
                 <Setter Property="TextColor"
@@ -34,10 +37,26 @@
                 <Setter Property="Margin" Value="20"/>
                 <Setter Property="BackgroundColor" 
                         Value="{AppThemeBinding 
+                        Dark={StaticResource ElementBackgroundColorDark},
+                        Light={StaticResource WindowBackgroundColor}}"/>
+                <Setter Property="BorderColor" Value="White"/>
+                <Setter Property="CornerRadius" Value="5"/>
+            </Style>
+            <Style x:Key="ButtonCard" TargetType="Button">
+                <Setter Property="HeightRequest" Value="50"/>
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+                <Setter Property="Margin" Value="20"/>
+                <Setter Property="BackgroundColor" 
+                        Value="{AppThemeBinding 
                         Dark={StaticResource WindowBackgroundColorDark},
                         Light={StaticResource WindowBackgroundColor}}"/>
                 <Setter Property="BorderColor" Value="White"/>
                 <Setter Property="CornerRadius" Value="5"/>
+                <Setter Property="TextColor" Value="{AppThemeBinding 
+                    Dark={StaticResource TextColorDark},
+                    Light={StaticResource TextColor}}"/>
+                
             </Style>
             <Style x:Key="CoffeeCard" TargetType="Frame">
                 <Setter Property="HasShadow" 
@@ -46,6 +65,12 @@
                 <Setter Property="BackgroundColor"
                         Value="{AppThemeBinding Dark={StaticResource CardBackgroundDark},
                     Light={StaticResource CardBackground}}"/>
+            </Style>
+            <Style x:Key="CoffeeOtherCard" TargetType="StackLayout">
+                <Setter Property="BackgroundColor"
+                        Value="{AppThemeBinding 
+                                    Dark={StaticResource Green},
+                                    Light={StaticResource Yellow}}"/>
             </Style>
             
         </ResourceDictionary>

@@ -559,23 +559,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eleaz\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Eleazar\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ProyectosPractica\\AppThemeXF\\AppTheme\\AppTheme.csproj",
+      "projectUniqueName": "F:\\Proyectos\\AppTheme\\AppTheme\\AppTheme.csproj",
       "projectName": "AppTheme",
-      "projectPath": "F:\\ProyectosPractica\\AppThemeXF\\AppTheme\\AppTheme.csproj",
-      "packagesPath": "C:\\Users\\eleaz\\.nuget\\packages\\",
-      "outputPath": "F:\\ProyectosPractica\\AppThemeXF\\AppTheme\\obj\\",
+      "projectPath": "F:\\Proyectos\\AppTheme\\AppTheme\\AppTheme.csproj",
+      "packagesPath": "C:\\Users\\Eleazar\\.nuget\\packages\\",
+      "outputPath": "F:\\Proyectos\\AppTheme\\AppTheme\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\eleaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Eleazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -588,7 +590,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "projectReferences": {}
         }
       },
@@ -600,7 +601,6 @@
     },
     "frameworks": {
       "netstandard2.0": {
-        "targetAlias": "netstandard2.0",
         "dependencies": {
           "FontAwesome": {
             "target": "Package",
@@ -631,7 +631,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

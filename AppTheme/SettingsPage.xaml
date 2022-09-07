@@ -156,6 +156,22 @@
                         </RadioButton>
                     </Grid>
                 </Frame>
+                <Frame
+                    HeightRequest="100"
+                    HorizontalOptions="FillAndExpand"
+                    Style="{DynamicResource CoffeeCard}"
+                    BorderColor="Red">
+                    <StackLayout>
+                        <Label 
+                            Style="{DynamicResource BaseLabel}"
+                            Text="Frame info here" 
+                            HorizontalOptions="Center"
+                            VerticalOptions="CenterAndExpand" />
+                        <Button
+                            Style="{DynamicResource ButtonCard}"
+                            Text="Tap here!"/>
+                    </StackLayout>
+                </Frame>
             </StackLayout>
         </Grid>
     </ScrollView>

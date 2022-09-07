@@ -620,14 +620,13 @@ public final class R {
      */
     public static final int backgroundStacked=0x7f03003c;
     /**
-     * Tint to apply to the background.
+     * Background for the MaterialButton
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int backgroundTint=0x7f03003d;
     /**
-     * Blending mode used to apply the background tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -1013,7 +1012,7 @@ public final class R {
      */
     public static final int buttonStyleSmall=0x7f030067;
     /**
-     * Tint to apply to the button drawable.
+     * Tint for the checkbox.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
@@ -2188,7 +2187,6 @@ public final class R {
      */
     public static final int editTextStyle=0x7f0300ef;
     /**
-     * Elevation for the action bar itself
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2954,7 +2952,7 @@ public final class R {
      */
     public static final int iconTint=0x7f03013f;
     /**
-     * Blending mode used to apply the icon tint.
+     * Tint mode for icon drawable to display.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -3455,8 +3453,6 @@ public final class R {
      */
     public static final int liftOnScrollTargetViewId=0x7f030170;
     /**
-     * Explicit height between lines of text. If set, this will override the values set
-     * for lineSpacingExtra and lineSpacingMultiplier.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5211,6 +5207,7 @@ public final class R {
      */
     public static final int tintMode=0x7f030243;
     /**
+     * The title to show when titleEnabled is set to true.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -7519,7 +7516,7 @@ public final class R {
      * <tr><td><code>{@link #ActionBar_customNavigationLayout com.companyname.apptheme:customNavigationLayout}</code></td><td>Specifies a layout for custom navigation.</td></tr>
      * <tr><td><code>{@link #ActionBar_displayOptions com.companyname.apptheme:displayOptions}</code></td><td>Options affecting how the action bar is displayed.</td></tr>
      * <tr><td><code>{@link #ActionBar_divider com.companyname.apptheme:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.companyname.apptheme:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.companyname.apptheme:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #ActionBar_height com.companyname.apptheme:height}</code></td><td></td></tr>
      * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.companyname.apptheme:hideOnContentScroll}</code></td><td>Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
      * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.companyname.apptheme:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
@@ -7536,7 +7533,7 @@ public final class R {
      * <tr><td><code>{@link #ActionBar_progressBarStyle com.companyname.apptheme:progressBarStyle}</code></td><td>Specifies a style resource to use for an embedded progress bar.</td></tr>
      * <tr><td><code>{@link #ActionBar_subtitle com.companyname.apptheme:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
      * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.companyname.apptheme:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.companyname.apptheme:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.companyname.apptheme:title}</code></td><td>The title to show when titleEnabled is set to true.</td></tr>
      * <tr><td><code>{@link #ActionBar_titleTextStyle com.companyname.apptheme:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
      * </table>
      * @see #ActionBar_background
@@ -8560,7 +8557,7 @@ public final class R {
      * <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_elevation com.companyname.apptheme:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #AppBarLayout_elevation com.companyname.apptheme:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_expanded com.companyname.apptheme:expanded}</code></td><td>The initial expanded state for the AppBarLayout.</td></tr>
      * <tr><td><code>{@link #AppBarLayout_liftOnScroll com.companyname.apptheme:liftOnScroll}</code></td><td>Whether the {@link AppBarLayout} should lift on scroll.</td></tr>
      * <tr><td><code>{@link #AppBarLayout_liftOnScrollTargetViewId com.companyname.apptheme:liftOnScrollTargetViewId}</code></td><td>The id of the view that the {@link AppBarLayout} should use to determine whether
@@ -9149,7 +9146,7 @@ public final class R {
      * <tr><td><code>{@link #AppCompatTextView_fontFamily com.companyname.apptheme:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
      * <tr><td><code>{@link #AppCompatTextView_fontVariationSettings com.companyname.apptheme:fontVariationSettings}</code></td><td>OpenType font variation settings, available after api 26.</td></tr>
      * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.companyname.apptheme:lastBaselineToBottomHeight}</code></td><td>Distance from the bottom of the TextView to the last text baseline.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.companyname.apptheme:lineHeight}</code></td><td>Explicit height between lines of text.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.companyname.apptheme:lineHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.companyname.apptheme:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
      * <tr><td><code>{@link #AppCompatTextView_textLocale com.companyname.apptheme:textLocale}</code></td><td>Set the textLocale by a comma-separated language tag string,
      * for example "ja-JP,zh-CN".</td></tr>
@@ -11579,8 +11576,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomAppBar_backgroundTint com.companyname.apptheme:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #BottomAppBar_elevation com.companyname.apptheme:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #BottomAppBar_backgroundTint com.companyname.apptheme:backgroundTint}</code></td><td>Background for the MaterialButton</td></tr>
+     * <tr><td><code>{@link #BottomAppBar_elevation com.companyname.apptheme:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #BottomAppBar_fabAlignmentMode com.companyname.apptheme:fabAlignmentMode}</code></td><td>The alignment of the fab relative to the BottomAppBar.</td></tr>
      * <tr><td><code>{@link #BottomAppBar_fabAnimationMode com.companyname.apptheme:fabAnimationMode}</code></td><td>The animation mode that should be used when the fab animates between alignment modes.</td></tr>
      * <tr><td><code>{@link #BottomAppBar_fabCradleMargin com.companyname.apptheme:fabCradleMargin}</code></td><td>The margin between the semi-circular cradle for the fab and the fab.</td></tr>
@@ -11723,8 +11720,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomNavigationView_backgroundTint com.companyname.apptheme:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_elevation com.companyname.apptheme:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_backgroundTint com.companyname.apptheme:backgroundTint}</code></td><td>Background for the MaterialButton</td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_elevation com.companyname.apptheme:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #BottomNavigationView_itemBackground com.companyname.apptheme:itemBackground}</code></td><td>A background drawable to use for navigation items.</td></tr>
      * <tr><td><code>{@link #BottomNavigationView_itemHorizontalTranslationEnabled com.companyname.apptheme:itemHorizontalTranslationEnabled}</code></td><td>Whether the items translate horizontally when in "selected" label visibility mode.</td></tr>
      * <tr><td><code>{@link #BottomNavigationView_itemIconSize com.companyname.apptheme:itemIconSize}</code></td><td>The size of the icon navigation items that display an icon</td></tr>
@@ -11768,9 +11765,8 @@ public final class R {
      */
     public static final int BottomNavigationView_backgroundTint=0;
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
+     * <p>This symbol is the offset where the {@link com.companyname.apptheme.R.attr#elevation}
+     * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -11937,7 +11933,7 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #BottomSheetBehavior_Layout_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_backgroundTint com.companyname.apptheme:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_backgroundTint com.companyname.apptheme:backgroundTint}</code></td><td>Background for the MaterialButton</td></tr>
      * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_expandedOffset com.companyname.apptheme:behavior_expandedOffset}</code></td><td>The top offset of the BottomSheet in the expanded-state when fitsToContent is false.</td></tr>
      * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_fitToContents com.companyname.apptheme:behavior_fitToContents}</code></td><td>Whether height of expanded sheet wraps content or not</td></tr>
      * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_halfExpandedRatio com.companyname.apptheme:behavior_halfExpandedRatio}</code></td><td>The ratio to be used to set the height of half-expanded state in proportion to parent, when
@@ -13133,7 +13129,7 @@ public final class R {
      * scrim visibility change.</td></tr>
      * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.companyname.apptheme:statusBarScrim}</code></td><td>The drawable to use as a scrim for the status bar content when the
      * CollapsingToolbarLayout has been scrolled sufficiently off screen.</td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.companyname.apptheme:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.companyname.apptheme:title}</code></td><td>The title to show when titleEnabled is set to true.</td></tr>
      * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.companyname.apptheme:titleEnabled}</code></td><td>Whether the CollapsingToolbarLayout should draw its own shrinking/growing title.</td></tr>
      * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.companyname.apptheme:toolbarId}</code></td><td>The id of the primary Toolbar child that you wish to use for the purpose of collapsing.</td></tr>
      * </table>
@@ -13508,7 +13504,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
      * <tr><td><code>{@link #CompoundButton_buttonCompat com.companyname.apptheme:buttonCompat}</code></td><td>Compat attr to load backported drawable types</td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.companyname.apptheme:buttonTint}</code></td><td>Tint to apply to the button drawable.</td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.companyname.apptheme:buttonTint}</code></td><td>Tint for the checkbox.</td></tr>
      * <tr><td><code>{@link #CompoundButton_buttonTintMode com.companyname.apptheme:buttonTintMode}</code></td><td>Blending mode used to apply the button tint.</td></tr>
      * </table>
      * @see #CompoundButton_android_button
@@ -13957,7 +13953,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerLayout_elevation com.companyname.apptheme:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #DrawerLayout_elevation com.companyname.apptheme:elevation}</code></td><td></td></tr>
      * </table>
      * @see #DrawerLayout_elevation
      */
@@ -13985,7 +13981,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ExtendedFloatingActionButton_elevation com.companyname.apptheme:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #ExtendedFloatingActionButton_elevation com.companyname.apptheme:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #ExtendedFloatingActionButton_extendMotionSpec com.companyname.apptheme:extendMotionSpec}</code></td><td>Motion spec for extend animation.</td></tr>
      * <tr><td><code>{@link #ExtendedFloatingActionButton_hideMotionSpec com.companyname.apptheme:hideMotionSpec}</code></td><td></td></tr>
      * <tr><td><code>{@link #ExtendedFloatingActionButton_showMotionSpec com.companyname.apptheme:showMotionSpec}</code></td><td></td></tr>
@@ -14112,10 +14108,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.companyname.apptheme:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.companyname.apptheme:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.companyname.apptheme:backgroundTint}</code></td><td>Background for the MaterialButton</td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.companyname.apptheme:backgroundTintMode}</code></td><td></td></tr>
      * <tr><td><code>{@link #FloatingActionButton_borderWidth com.companyname.apptheme:borderWidth}</code></td><td>The width of the border around the FAB.</td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_elevation com.companyname.apptheme:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_elevation com.companyname.apptheme:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #FloatingActionButton_ensureMinTouchTargetSize com.companyname.apptheme:ensureMinTouchTargetSize}</code></td><td></td></tr>
      * <tr><td><code>{@link #FloatingActionButton_fabCustomSize com.companyname.apptheme:fabCustomSize}</code></td><td>Custom size for the FAB.</td></tr>
      * <tr><td><code>{@link #FloatingActionButton_fabSize com.companyname.apptheme:fabSize}</code></td><td>Size for the FAB.</td></tr>
@@ -14165,9 +14161,8 @@ public final class R {
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the background tint.
+     * <p>This symbol is the offset where the {@link com.companyname.apptheme.R.attr#backgroundTintMode}
+     * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -15666,16 +15661,16 @@ public final class R {
      * <tr><td><code>{@link #MaterialButton_android_insetTop android:insetTop}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_android_insetBottom android:insetBottom}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_android_checkable android:checkable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_backgroundTint com.companyname.apptheme:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_backgroundTintMode com.companyname.apptheme:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #MaterialButton_backgroundTint com.companyname.apptheme:backgroundTint}</code></td><td>Background for the MaterialButton</td></tr>
+     * <tr><td><code>{@link #MaterialButton_backgroundTintMode com.companyname.apptheme:backgroundTintMode}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_cornerRadius com.companyname.apptheme:cornerRadius}</code></td><td>Specifies the radius for the corners of the button.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_elevation com.companyname.apptheme:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #MaterialButton_elevation com.companyname.apptheme:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_icon com.companyname.apptheme:icon}</code></td><td>Icon drawable to display at the start of this view.</td></tr>
      * <tr><td><code>{@link #MaterialButton_iconGravity com.companyname.apptheme:iconGravity}</code></td><td>Specifies how the icon should be positioned on the X axis.</td></tr>
      * <tr><td><code>{@link #MaterialButton_iconPadding com.companyname.apptheme:iconPadding}</code></td><td>Padding between icon and button text.</td></tr>
      * <tr><td><code>{@link #MaterialButton_iconSize com.companyname.apptheme:iconSize}</code></td><td>Specifies the width and height to use for the icon drawable.</td></tr>
      * <tr><td><code>{@link #MaterialButton_iconTint com.companyname.apptheme:iconTint}</code></td><td>Tint for icon drawable to display.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconTintMode com.companyname.apptheme:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconTintMode com.companyname.apptheme:iconTintMode}</code></td><td>Tint mode for icon drawable to display.</td></tr>
      * <tr><td><code>{@link #MaterialButton_rippleColor com.companyname.apptheme:rippleColor}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_shapeAppearance com.companyname.apptheme:shapeAppearance}</code></td><td>Shape appearance style reference to be used to construct a ShapeAppearanceModel.</td></tr>
      * <tr><td><code>{@link #MaterialButton_shapeAppearanceOverlay com.companyname.apptheme:shapeAppearanceOverlay}</code></td><td>Shape appearance overlay style reference to be used to modify the shapeAppearance.</td></tr>
@@ -15802,9 +15797,8 @@ public final class R {
      */
     public static final int MaterialButton_backgroundTint=5;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the background tint.
+     * <p>This symbol is the offset where the {@link com.companyname.apptheme.R.attr#backgroundTintMode}
+     * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -16546,7 +16540,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MaterialCheckBox_buttonTint com.companyname.apptheme:buttonTint}</code></td><td>Tint to apply to the button drawable.</td></tr>
+     * <tr><td><code>{@link #MaterialCheckBox_buttonTint com.companyname.apptheme:buttonTint}</code></td><td>Tint for the checkbox.</td></tr>
      * <tr><td><code>{@link #MaterialCheckBox_useMaterialThemeColors com.companyname.apptheme:useMaterialThemeColors}</code></td><td></td></tr>
      * </table>
      * @see #MaterialCheckBox_buttonTint
@@ -16659,7 +16653,7 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #MaterialTextAppearance_android_lineHeight android:lineHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialTextAppearance_lineHeight com.companyname.apptheme:lineHeight}</code></td><td>Explicit height between lines of text.</td></tr>
+     * <tr><td><code>{@link #MaterialTextAppearance_lineHeight com.companyname.apptheme:lineHeight}</code></td><td></td></tr>
      * </table>
      * @see #MaterialTextAppearance_android_lineHeight
      * @see #MaterialTextAppearance_lineHeight
@@ -16683,10 +16677,8 @@ public final class R {
      */
     public static final int MaterialTextAppearance_android_lineHeight=0;
     /**
-     * <p>
-     * @attr description
-     * Explicit height between lines of text. If set, this will override the values set
-     * for lineSpacingExtra and lineSpacingMultiplier.
+     * <p>This symbol is the offset where the {@link com.companyname.apptheme.R.attr#lineHeight}
+     * attribute's value can be found in the {@link #MaterialTextAppearance} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16706,7 +16698,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #MaterialTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialTextView_android_lineHeight android:lineHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialTextView_lineHeight com.companyname.apptheme:lineHeight}</code></td><td>Explicit height between lines of text.</td></tr>
+     * <tr><td><code>{@link #MaterialTextView_lineHeight com.companyname.apptheme:lineHeight}</code></td><td></td></tr>
      * </table>
      * @see #MaterialTextView_android_textAppearance
      * @see #MaterialTextView_android_lineHeight
@@ -16741,10 +16733,8 @@ public final class R {
      */
     public static final int MaterialTextView_android_lineHeight=1;
     /**
-     * <p>
-     * @attr description
-     * Explicit height between lines of text. If set, this will override the values set
-     * for lineSpacingExtra and lineSpacingMultiplier.
+     * <p>This symbol is the offset where the {@link com.companyname.apptheme.R.attr#lineHeight}
+     * attribute's value can be found in the {@link #MaterialTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16894,7 +16884,7 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.companyname.apptheme:alphabeticModifiers}</code></td><td>The alphabetic modifier key.</td></tr>
      * <tr><td><code>{@link #MenuItem_contentDescription com.companyname.apptheme:contentDescription}</code></td><td>The content description associated with the item.</td></tr>
      * <tr><td><code>{@link #MenuItem_iconTint com.companyname.apptheme:iconTint}</code></td><td>Tint for icon drawable to display.</td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.companyname.apptheme:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.companyname.apptheme:iconTintMode}</code></td><td>Tint mode for icon drawable to display.</td></tr>
      * <tr><td><code>{@link #MenuItem_numericModifiers com.companyname.apptheme:numericModifiers}</code></td><td>The numeric modifier key.</td></tr>
      * <tr><td><code>{@link #MenuItem_showAsAction com.companyname.apptheme:showAsAction}</code></td><td>How this item should display in the Action Bar, if present.</td></tr>
      * <tr><td><code>{@link #MenuItem_tooltipText com.companyname.apptheme:tooltipText}</code></td><td>The tooltip text associated with the item.</td></tr>
@@ -17433,7 +17423,7 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_elevation com.companyname.apptheme:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #NavigationView_elevation com.companyname.apptheme:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_headerLayout com.companyname.apptheme:headerLayout}</code></td><td>Layout resource to inflate as the header</td></tr>
      * <tr><td><code>{@link #NavigationView_itemBackground com.companyname.apptheme:itemBackground}</code></td><td>A background drawable to use for navigation items.</td></tr>
      * <tr><td><code>{@link #NavigationView_itemHorizontalPadding com.companyname.apptheme:itemHorizontalPadding}</code></td><td>Horizontal padding (left and right) of navigation items, around the icon & text</td></tr>
@@ -17521,9 +17511,8 @@ public final class R {
      */
     public static final int NavigationView_android_maxWidth=2;
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
+     * <p>This symbol is the offset where the {@link com.companyname.apptheme.R.attr#elevation}
+     * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -18758,7 +18747,7 @@ public final class R {
      * the theme color used for Snackbar text buttons (e.g., colorPrimary).</td></tr>
      * <tr><td><code>{@link #SnackbarLayout_animationMode com.companyname.apptheme:animationMode}</code></td><td>Sets the enter and exit animations for a Snackbar.</td></tr>
      * <tr><td><code>{@link #SnackbarLayout_backgroundOverlayColorAlpha com.companyname.apptheme:backgroundOverlayColorAlpha}</code></td><td>Alpha level for the color that is overlaid on top of the background color.</td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_elevation com.companyname.apptheme:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_elevation com.companyname.apptheme:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.companyname.apptheme:maxActionInlineWidth}</code></td><td></td></tr>
      * </table>
      * @see #SnackbarLayout_android_maxWidth
@@ -18825,9 +18814,8 @@ public final class R {
      */
     public static final int SnackbarLayout_backgroundOverlayColorAlpha=3;
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
+     * <p>This symbol is the offset where the {@link com.companyname.apptheme.R.attr#elevation}
+     * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -21045,7 +21033,7 @@ public final class R {
      * <tr><td><code>{@link #Toolbar_subtitle com.companyname.apptheme:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
      * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.companyname.apptheme:subtitleTextAppearance}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_subtitleTextColor com.companyname.apptheme:subtitleTextColor}</code></td><td>A color to apply to the subtitle string.</td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.companyname.apptheme:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.companyname.apptheme:title}</code></td><td>The title to show when titleEnabled is set to true.</td></tr>
      * <tr><td><code>{@link #Toolbar_titleMargin com.companyname.apptheme:titleMargin}</code></td><td>Specifies extra space on the left, start, right and end sides
      * of the toolbar's title.</td></tr>
      * <tr><td><code>{@link #Toolbar_titleMarginBottom com.companyname.apptheme:titleMarginBottom}</code></td><td>Specifies extra space on the bottom side of the toolbar's title.</td></tr>
@@ -21400,8 +21388,9 @@ public final class R {
      */
     public static final int Toolbar_subtitleTextColor=20;
     /**
-     * <p>This symbol is the offset where the {@link com.companyname.apptheme.R.attr#title}
-     * attribute's value can be found in the {@link #Toolbar} array.
+     * <p>
+     * @attr description
+     * The title to show when titleEnabled is set to true.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -21638,8 +21627,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.companyname.apptheme:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.companyname.apptheme:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.companyname.apptheme:backgroundTint}</code></td><td>Background for the MaterialButton</td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.companyname.apptheme:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint

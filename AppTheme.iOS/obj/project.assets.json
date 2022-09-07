@@ -1022,24 +1022,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eleaz\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Eleazar\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ProyectosPractica\\AppThemeXF\\AppTheme.iOS\\AppTheme.iOS.csproj",
+      "projectUniqueName": "F:\\Proyectos\\AppTheme\\AppTheme.iOS\\AppTheme.iOS.csproj",
       "projectName": "AppTheme.iOS",
-      "projectPath": "F:\\ProyectosPractica\\AppThemeXF\\AppTheme.iOS\\AppTheme.iOS.csproj",
-      "packagesPath": "C:\\Users\\eleaz\\.nuget\\packages\\",
-      "outputPath": "F:\\ProyectosPractica\\AppThemeXF\\AppTheme.iOS\\obj\\",
+      "projectPath": "F:\\Proyectos\\AppTheme\\AppTheme.iOS\\AppTheme.iOS.csproj",
+      "packagesPath": "C:\\Users\\Eleazar\\.nuget\\packages\\",
+      "outputPath": "F:\\Proyectos\\AppTheme\\AppTheme.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\eleaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Eleazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1053,8 +1053,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "F:\\ProyectosPractica\\AppThemeXF\\AppTheme\\AppTheme.csproj": {
-              "projectPath": "F:\\ProyectosPractica\\AppThemeXF\\AppTheme\\AppTheme.csproj"
+            "F:\\Proyectos\\AppTheme\\AppTheme\\AppTheme.csproj": {
+              "projectPath": "F:\\Proyectos\\AppTheme\\AppTheme\\AppTheme.csproj"
             }
           }
         }
